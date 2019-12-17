@@ -23,11 +23,7 @@
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js" ></script>
     <!-- Bootstrap datepicker -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap-datepicker.css">
-    <style type="text/css" media="screen">
-    #margem{
-        border-style: solid;
-        }
-    </style>
+    
     
    
   
@@ -81,7 +77,9 @@
   </form>
   <br><br><br>
   <form>
-  <div class="form-group" id="margem">
+    <hr/>
+    <br>
+  <div class="form-group" id="margem" >
     <div class="form-group col-md-3">
       <label for="inputEstado">Dispositivo</label>
       <select id="inputEstado" class="form-control">
