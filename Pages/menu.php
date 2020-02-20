@@ -31,22 +31,28 @@
                     </a>
                     <ul class="collapse list-unstyled" id="pageHard">
                         <li>
-                            <a href="hardware/index.php">Entrada</a>
+                            <a href="entrada.php">Entrada</a>
                         </li>
                         <li>
-                            <a href="hardware/saida.php">Saída</a>
+                            <a href="saida.php">Saída</a>
                         </li>
                         <li>
-                            <a href="#">Total de Hardware</a>
+                            <a href="total.php">Total de Hardware</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <a href="#pageSoft" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-braille"></i>
-                        Software
+                        Patrimônio
                     </a>
                     <ul class="collapse list-unstyled" id="pageSoft">
+                        <li>
+                            <a href="add_patrimonio.php">Adicionar</a>
+                        </li>
+                        <li>
+                            <a href="#">Total de Patrimônio</a>
+                        </li>
                        
                     </ul>
                 </li>
@@ -71,7 +77,7 @@
                     </a>
                     <ul class="collapse list-unstyled" id="pageAdm">
                         <li>
-                            <a href="#">Adicionar Dispositivo</a>
+                            <a href="admin.php">Adicionar Dispositivo</a>
                         </li>
                         <li>
                             <a href="#">Excluir Dispositivo</a>

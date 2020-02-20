@@ -8,22 +8,17 @@
 
     <title>Estoque TI</title>
 
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="../bootstrap/css/style.css">
-    <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-    <!-- Bootstrap datepicker -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap-datepicker.css">
+    <!-- CABEÇALHO -->
+   <?php include("..\includes\head.php")?>
+
+   <!-- CABEÇALHO -->
   
 </head>
 
 <body>
 <!-- INICIO DO MENU -->
 <div class="wrapper">
-    <?php include "../menu/menu.php"; ?>
+    <?php include "menu.php"; ?>
 
 
         <div id="content">
@@ -117,7 +112,7 @@
             </div>
         </div>
 </div>
-
+<!-- RODAPÉ-->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
@@ -145,6 +140,8 @@
               language:"pt-BR"
             });
        </script>
+
+       <!-- FIM RODAPÉ-->
 </body>
 
 </html>

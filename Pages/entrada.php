@@ -23,7 +23,7 @@
 <body>
 <!-- INICIO DO MENU -->
 <div class="wrapper">
-    <?php include "../menu/menu.php"; ?>
+    <?php include "menu.php"; ?>
 
 
         <div id="content">
