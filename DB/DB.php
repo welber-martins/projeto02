@@ -1,7 +1,23 @@
 <?php
 
-$conn = new PDO("mysql:dbname=estoque;host=localhost", "root", "");
+function getConnection(){
 
-$stmt
+	$dsn = 'mysql:dbname=estoque;host=localhost;charset=utf8';
+	$user = 'root';
+	$pass = '';
+
+
+	try{
+
+		$pdo = new PDO($dsn, $user, $pass);
+
+		return $pdo;
+	}catch (PDOException $ex){
+
+		echo "Erro: ".$ex->getMessage();
+	}
+
+}
+
 
 ?>

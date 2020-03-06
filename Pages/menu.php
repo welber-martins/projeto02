@@ -82,6 +82,9 @@
                         <li>
                             <a href="#">Excluir Dispositivo</a>
                         </li>
+                        <li>
+                            <a href="#">Controle de Usuários</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
